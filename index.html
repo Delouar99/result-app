@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <h4 class="card-heade text-center">Add New Student</h4>
+                    <div class="card-body">
+                    
+                     <form action="" id="student_form">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Rool Number">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Class">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="photo">
+                        </div>
+                        <div class="form-group">
+                          <input name="gander" type="radio" value="male" id="male"> <label for="male">Male</label>
+                          <input name="gander" type="radio" value="fmale" id="fmale"> <label for="fmale">Fmale</label>
+                        </div>
+                        Marks
+                        <hr>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Bangla">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="English">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Math">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Science">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="social science">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Relagion">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Religion">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Add New Student" class="btn btn-primary btn-block">
+                        </div>
+                    </form>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card" >
+                 <div class="card-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Roll</th>
+                                <th>Class</th>
+                                <th>Gander</th>
+                                <th>Grade</th>
+                                <th>Cgpa</th>
+                                <th>Photo</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data_list">
+                            
+                        </tbody>
+                    </table>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+      <img src="" alt="">
+    <script src="./app.js"></script>
+    <script src="./functions.js"></script>
+  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
